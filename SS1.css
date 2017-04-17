@@ -23,7 +23,7 @@ header{
 	background-repeat: no-repeat;
     background-color:#36454f;
     position:fixed;
-    background-image:url("as.png");
+    background:url("as.png");
     font-family: 'Graduate', cursive;
     color:#d38f06;
     text-shadow:2px 2px 2px #000;
