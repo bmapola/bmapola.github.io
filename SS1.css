@@ -119,6 +119,16 @@ footer ul{
 	-moz-box-shadow:2px 2px 15px #000;
 	box-shadow:2px 2px 15px #000;
 }
+#list{
+	float:left;
+	height:200px;
+	width:160px;
+	background:url("Images/papertexture.jpg");
+	background-size: cover;
+	background-position: center;
+	padding:10px;
+	box-shadow:2px 2px 15px #000;
+}
 footer{
 	width: 100%;
 	color: #FFF;
