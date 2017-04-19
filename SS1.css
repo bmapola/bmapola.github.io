@@ -9,6 +9,19 @@ html{
 h1,h2,h3{
 	margin-top:0px;
 }
+#main h2{
+	padding:20px 20px;
+	margin:0px;
+}
+#main p{
+	padding:0px 20px;
+}
+#main li{
+	list-style: none;
+}
+#main ol li {
+	list-style: decimal;
+}
 body{
 	font-family: Helvetica, Arial, Times;
     position:relative;
@@ -25,7 +38,7 @@ header{
 	background-repeat: no-repeat;
     background-color:#36454f;
     position:relative;
-    background:url("as.png");
+    background:url("images/as.png");
     font-family: 'Graduate', cursive;
     color:#d38f06;
     text-shadow:2px 2px 2px #000;
@@ -63,10 +76,21 @@ nav ul li:after{
 nav ul li a:hover, nav ul li a:focus{
 	text-decoration: underline;
 }
+footer ul li {
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 700;
+	padding-left: 200px;
+	margin-bottom: 0px;
+}
+footer ul{
+	margin-bottom: 0px;
+}
 #main{
 	margin:auto;
-	height:200px;
-	width:160px;
+	height:830px;
+	width:640px;
 	background:#474744;
 	-webkit-border-radius:20px 20px 20px 20px;
 	-moz-border-radius:20px 20px 20px 20px;	
@@ -79,7 +103,7 @@ nav ul li a:hover, nav ul li a:focus{
 	float:right;
 	height:200px;
 	width:160px;
-	background:#474744;
+	background:#727272;
 	padding:10px;
 	-webkit-border-radius:20px 0px 0px 20px;
 	-moz-border-radius:20px 0px 0px 20px;	
@@ -90,9 +114,8 @@ nav ul li a:hover, nav ul li a:focus{
 }
 footer{
 	width: 100%;
-	background-color: #36454f;
 	color: #FFF;
-	height:80px;
-    position:absolute;
+	height:20px;
+    position:relative;
     bottom: 0px;
 }
